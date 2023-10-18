@@ -1,10 +1,10 @@
 ---
 title: "Привет Jekyll!"
-date: '2021-12-30 00:00:00 +0500'
+date: '2023-10-18 00:00:00 +0500'
 categories: [Технические шоколадки]
 tags: [техника, логика]
 image: 
-  path: /assets/img/small-little-green-cubes.png
+  path: /assets/img/hello-jekyll.jpg
 toc: false
 ---
 
