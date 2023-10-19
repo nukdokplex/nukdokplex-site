@@ -4,7 +4,9 @@ date: '2021-08-24 00:00:00 +0500'
 categories: [Дзен]
 tags: [эмпатия, внутренняя империя, логика]
 image: 
-  path: /assets/img/unique-identity.jpeg
+  path: /assets/img/posts/unique-identity.webp
+  alt: Фото автора mini_malist по лицензии CC BY-ND 2.0 Deed
+toc: false
 ---
 
 Вот смотрю я на разных людей и думаю: «Блин, как же сильно я от них отличаюсь!». И вновь подумав об этом, я решил написать эту запись.

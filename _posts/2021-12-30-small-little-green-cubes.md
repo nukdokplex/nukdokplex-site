@@ -4,7 +4,8 @@ date: '2021-12-30 00:00:00 +0500'
 categories: [Дзен]
 tags: [внутренняя империя, концептуализация, логика, самообладание]
 image: 
-  path: /assets/img/small-little-green-cubes.png
+  path: /assets/img/posts/small-little-green-cubes.webp
+  alt: Фото неизвестного автора - Public Domain
 toc: false
 ---
 
@@ -24,4 +25,4 @@ toc: false
 
 Я… гм… видел один. Я про кубы. Буквально только что. Мне что-то нехорошо…
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5v8tkWxBbFuRwpS7ou18SN?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5v8tkWxBbFuRwpS7ou18SN?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>

@@ -4,7 +4,8 @@ date: '2023-10-18 00:00:00 +0500'
 categories: [Технические шоколадки]
 tags: [техника, логика]
 image: 
-  path: /assets/img/hello-jekyll.jpg
+  path: /assets/img/posts/hello-jekyll.webp
+  alt: Логотип Jekyll
 toc: false
 ---
 

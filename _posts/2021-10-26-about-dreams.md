@@ -4,7 +4,8 @@ date: '2021-08-27 00:00:00 +0500'
 categories: [Дзен]
 tags: [внутренняя империя, энциклопедия, рептильный мозг]
 image: 
-  path: /assets/img/about-dreams.jpeg
+  path: /assets/img/posts/about-dreams.webp
+  alt: Фото автора Pat Pilon по лицензии CC BY 2.0 Deed
 toc: true
 ---
 

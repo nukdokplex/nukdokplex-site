@@ -4,7 +4,8 @@ date: '2021-10-26 00:00:00 +0500'
 categories: [Дзен]
 tags: [внутренняя империя, концептуализация]
 image: 
-  path: /assets/img/take-control-2.jpeg
+  path: /assets/img/posts/take-control-2.webp
+  alt: Фото автора Tom Page по лицензии CC BY-SA 2.0 Deed
 toc: false
 ---
 

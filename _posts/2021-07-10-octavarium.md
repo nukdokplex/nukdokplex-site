@@ -4,8 +4,9 @@ date: '2021-07-10 00:00:00 +0500'
 categories: [Дзен]
 tags: [трепет, драма, эмпатия, риторика]
 image:
-  path: /assets/img/octavarium.jpeg
-  toc: false
+  path: /assets/img/posts/octavarium.webp
+  alt: Фото автора Mic JohnsonLP по лицензии CC BY 2.0 Deed
+toc: false
 ---
 
 Вы никогда не замечали, что все люди не просто говорят на разных языках, они говорят на разных частотах! Нет, я не спятил, это просто самая примитивная мысль, которую я могу выдать. Это - самая первая вещь, которую я сознательно осознал. Однако, это действительно так.
@@ -15,3 +16,5 @@ image:
 Однако, большинство людей (и я тоже) заперты в своей октаве. Не то чтобы это прямо тюрьма, однако это и есть «Октавариум». Может две, а может и четыре, не знаю. Знаю только, что он существует.
 
 Это просто на заметку.
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4TZo49HN2MkbWmHMTf4NcH?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>

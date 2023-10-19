@@ -4,7 +4,8 @@ date: '2021-10-26 00:00:00 +0500'
 categories: [Дзен]
 tags: [энциклопедия, логика]
 image: 
-  path: /assets/img/application-of-tesey-paradox.jpeg
+  path: /assets/img/posts/application-of-tesey-paradox.webp
+  alt: Фото автора Linus Bohman по лицензии CC BY 2.0 Deed
 toc: false
 ---
 
