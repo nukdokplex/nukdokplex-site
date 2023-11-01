@@ -2,7 +2,7 @@
 icon: fas fa-robot
 order: 1000
 tab_title: DIJKSTRA BOT
-title: DIJKSTRA Discord Bot
+title: DIJKSTRA BOT
 layout: page
 ---
 
