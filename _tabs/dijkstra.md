@@ -2,10 +2,11 @@
 icon: fas fa-robot
 order: 1000
 tab_title: DIJKSTRA BOT
-title: DIJKSTRA BOT
+title: DIJKSTRA Discord Bot
+layout: page
 ---
 
-**DIJKSTRA is a powerful functional bot based on Red, a powerful modular incarnation of discord.py**
+**DIJKSTRA is a powerful functional Discord bot based on Red, a powerful modular incarnation of discord.py**
 
 The goal of this bot is simple — to provide functionality that will fully cover the needs of most Discord servers. To these needs we include:
 
@@ -25,7 +26,7 @@ You can [add this bot to your server](https://discord.com/oauth2/authorize?clien
 
 ## Описание на русском языке
 
-**DIJKSTRA — это мощный функциональный бот, основанный на Red — мощное модульное воплощение discord.py**
+**DIJKSTRA — это мощный функциональный Discord-бот, основанный на Red — мощное модульное воплощение discord.py**
 
 Цель этого бота проста — предоставлять функционал, который будет полностью покрывать потребности большинства серверов Discord. К этим потребностям мы относим:
 
