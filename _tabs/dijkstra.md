@@ -1,6 +1,8 @@
 ---
-layout: page
-title: DIJKSTRA - Discord bot
+icon: fas fa-robot
+order: 1000
+tab_title: DIJKSTRA BOT
+title: DIJKSTRA BOT
 ---
 
 **DIJKSTRA is a powerful functional bot based on Red, a powerful modular incarnation of discord.py**
