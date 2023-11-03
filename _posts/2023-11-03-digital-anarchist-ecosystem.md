@@ -4,8 +4,8 @@ date: '2023-11-03 11:48:00 +0300'
 categories: [Технические шоколадки]
 tags: [техника, логика, сумрак]
 image: 
-  path: /assets/img/posts/hello-jekyll.webp
-  alt: Логотип Jekyll
+  path: /assets/img/posts/digital-anarchist-ecosystem.webp
+  alt: Фото автора aivas14 по лицензии CC BY 2.0 Deed
 toc: true
 ---
 
