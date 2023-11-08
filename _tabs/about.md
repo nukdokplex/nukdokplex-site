@@ -18,6 +18,12 @@ title: 'Обо мне'
 
 *Ещё играю во всякие игрушки. Люблю Тетрис, Террарию, Факторио и пр. Также неравнодушен к Ведьмаку и Свиткам.*
 
+Также мне очень нравится слушать музыку, скорее всего я её слушаю прямо сейчас, чуть ниже находится виджет, который отображает текущую проигрываемую песню в [моём Spotify](https://open.spotify.com/user/k8d2u3l1klp64mdypz4b983mn?si=8fcd86a5a16348b1). Если у вас есть Spotify, вы можете кликнуть на этот виджет и прослушать текущую песню вместе со мной.
+
+<p align="center">
+    <a href="https://spotify-github-profile.vercel.app/api/view?uid=k8d2u3l1klp64mdypz4b983mn&redirect=true"><img src="https://spotify-github-profile.vercel.app/api/view?uid=k8d2u3l1klp64mdypz4b983mn&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false"></a>
+</p> 
+
 ## Как я идентифицируюсь?
 ### OpenPGP/GnuPG
 
