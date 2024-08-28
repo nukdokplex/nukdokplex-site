@@ -3,7 +3,9 @@ title: "Установка AmneziaWG на сервер Debian 12 Bookworm"
 date: '2024-08-28 08:00:00 +0300'
 categories: [Технические шоколадки]
 tags: [техника, логика, энциклопедия]
-
+image:
+  path: /assets/img/posts/setup-amneziawg-on-debian.webp
+  alt: Фото автора Andrey Metelev по лицензии Unsplash
 toc: true
 ---
 
