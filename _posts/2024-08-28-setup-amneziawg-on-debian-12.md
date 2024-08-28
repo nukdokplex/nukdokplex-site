@@ -4,7 +4,7 @@ date: '2024-08-28 06:00:00 +0300'
 categories: [Технические шоколадки]
 tags: [техника, логика, энциклопедия]
 image:
-  path: /assets/img/posts/setup-amneziawg-on-debian.webp
+  path: /assets/img/posts/setup-amneziawg-on-debian-12.webp
   alt: Фото автора Andrey Metelev по лицензии Unsplash
 toc: true
 ---
