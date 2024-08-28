@@ -23,26 +23,26 @@ toc: true
 
 Для этого нам понадобится установить несколько пакетов:
 
-```shell
+```sh
 sudo apt install -y software-properties-common python3-launchpadlib gnupg2 linux-headers-$(uname -r)
 ```
 
 Теперь добавим ключ Ubuntu в `apt`, так как репозиторий с AWG находится в сервисе Launchpad:
 
-```shell
+```sh
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 57290828
 ```
 
 Добавляем репозиторий в `sources.list`:
 
-```shell
+```sh
 echo "deb https://ppa.launchpadcontent.net/amnezia/ppa/ubuntu focal main" | sudo tee -a /etc/apt/sources.list
 echo "deb-src https://ppa.launchpadcontent.net/amnezia/ppa/ubuntu focal main" | sudo tee -a /etc/apt/sources.list
 ```
 
 Обновляем репозитории и устанавливаем AWG:
 
-```shell
+```sh
 sudo apt-get update
 sudo apt-get install -y amneziawg amneziawg-tools
 ```
@@ -55,27 +55,27 @@ sudo apt-get install -y amneziawg amneziawg-tools
 
 Файлы конфигурации AWG хранятся в директории `/etc/amnezia/amneziawg`. Давайте начнем создавать файлы конфигурации. Для начала сгенерируем приватный и публичный ключ сервера.
 
-```shell
+```sh
 sudo mkdir -p /etc/amnezia/amneziawg
 wg genkey | sudo tee /etc/amnezia/amneziawg/privatekey | wg pubkey | sudo tee /etc/amnezia/amneziawg/publickey
 ```
 
 После этого вы сможете посмотреть эти ключи и скопировать:
 
-```shell
+```sh
 sudo cat /etc/amnezia/amneziawg/privatekey
 sudo cat /etc/amnezia/amneziawg/publickey
 ```
 
 Далее, давайте создадим файл конфигурации, используйте свой любимый текстовый редактор:
 
-```shell
+```sh
 sudo nano /etc/amnezia/amneziawg/wg0.conf
 ```
 
 Ну и давайте наконец настроим AWG:
 
-```service
+```
 [Interface]
 Address = 10.0.8.1/24 # Подсеть, которая будет испол
 ListenPort = 33733 # Порт сервера
@@ -111,13 +111,13 @@ AllowedIPs = 10.0.8.2/32
 
 К сожалению AWG не обладает интеграцию с `systemd`, поэтому нам придется сделать её самостоятельно:
 
-```shell
+```sh
 sudo nano /etc/systemd/system/awg-quick@.service
 ```
 
 И вставим следующее содержимое:
 
-```service
+```
 [Unit]
 Description=WireGuard via awg-quick(8) for %I
 After=network-online.target nss-lookup.target
@@ -143,25 +143,25 @@ WantedBy=multi-user.target
 
 Перезагрузим демон `systemd`:
 
-```shell
+```sh
 sudo systemctl daemon-reload
 ```
 
 И наконец запустим:
 
-```shell
+```sh
 sudo systemctl start awg-quick@wg0.service
 ```
 
 После запуска можно проверить статус сервиса: 
 
-```shell
+```sh
 sudo systemctl status awg-quick@wg0.service
 ```
 
 Ну и проверить наличие интерфейса Wireguard:
 
-```shell
+```sh
 ip a
 ```
 
